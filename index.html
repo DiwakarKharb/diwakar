@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8350560991.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                <nav>
+                    <img src="lo.png" class="lo"/>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi i am <span>Diwakar Kharb</span><br> I am from India</h1>
+                </div>
+        </div>
+    </div>
+ <!------------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="ppp.jpg"/>
+            </div>
+                
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>To work in an organization where I receivecreative satisfaction while delivering qualityservice in all aspects.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Certificates')">Certificates</p>             
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>10th</span><br>CBSE Board with 85% in year 2018</li>
+                        <li><span>12th</span><br>CBSE Board with 82% in year 2020</li>
+                        <li><span>B.Tech Computer Science Engineering,Dronacharya College of Engineering</span><br><br>2020 – present Gurugram,India <br><br>With an aggregate of 80% (till 5th Semester)</li>
+                    </ul>                   
+                </div>
+                <div class="tab-contents" id="Certificates">
+                    <ul>
+                        <li><span>Web Development</span><br>Teachnook</li>
+                        <li><span>C Training-Spoken Tutorial</span><br>IIT Bombay</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Intern at Immensphere(in association with Teachnook)</span><br><br>August 2022 – September 2022<br><br>Team- management and technical skills are being enhanced along with the hold on the language. <br><br>Skills Learned- Javascript, ReactJs<br></li>
+                        <li><span>Web Developer Intern at Suven Consultants & Technology Pvt Ltd</span><br><br>June 2023<br><br>Skills Learned - HTML, CSS ,Javascript</li>
+                    </ul>                   
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------skills----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C++</h2>
+                <p>designing web applovation</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+                <p>designing web applovation</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>Javascript</h2>
+                <p>designing web applovation</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>ReactJs</h2>
+                <p>designing web applovation</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-node"></i>
+                <h2>NodeJs</h2>
+                <p>designing web applovation</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-css3-alt"></i>
+                <h2>CSS</h2>
+                <p>designing web applovation</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------project------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.jpg" alt="photo"/>
+                <div class="layer">
+                    <h2>To-Do-List</h2>
+                    <p>An easy-to-use web app that keeps you in check and helps you monitor your progress.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>               
+            </div>
+            <div class="work">
+                <img src="work-2.jpg" alt="photo"/>
+                <div class="layer">
+                    <h2>Weather App</h2>
+                    <p>It presents you the weather of the country given as input. It fetches details like humidity, wind pressure for next 7 days with the application of APIs.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>    
+            </div>
+            <div class="work">
+                <img src="work-3.jpg" alt="photo"/>
+                <div class="layer">
+                    <h2>Travel Website</h2>
+                    <p>A website for planning your vacation with all the details such as stay booking, modes of travel- Flight/ Cruise/ Trains, etc.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>    
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>diwakarkharb19@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9953486505</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="Diwakarkharb_Resume_.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> All rights are with Diwakar Kharb</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function openmenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbywrnKCQIr0Y1_DskWP-3MU9_sh63Xt8AH8LOwMRdyaARU_4BJmzSxcU8eQtBgA5aBK/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
